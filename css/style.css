@@ -30,8 +30,10 @@ a:hover{
     
 }
 .container-titles{
+   padding: 20px;
+   margin-top: 30%;
     
-    text-align: center;
+   
 }
 .form-container{
     background-color: #Ffff;
