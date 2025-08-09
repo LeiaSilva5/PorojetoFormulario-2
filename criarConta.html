@@ -4,44 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Formulário de incrição</title>
+    <title>Criar Conta</title>
 </head>
 <body>
     <div class="container">
-        <!--Aqui fica a primeira parte da tela de loguin-->
-       <div class="banner-container">
+        <div class="banner-container">
                     <div class="container-titles">
                         <h1>Olá, seja bem vindo ao nosso site</h1>
-                        <p>Acesse com seu login e senha</p>
+                        <p>Realize seu cadastro aqui e aproveite nossos serviços</p>
                     </div>
        </div>
-
-       <!--Aqui fica a segunda parte com o formuário de loguin-->
-       <div class="form-container">
+        <div class="form-container">
             <div class="form-title">
-                <h1>Login</h1>
+                <h1>Cadastro</h1>
             </div>
-            <div class="new-accust">
-                <span><a href="/criarConta.html">Ou criar uma conta aqui</a></span>
-            </div>
+            <div class="paragrafo-container">
+                <p>Insira os seguintes dados abaixo :</p>
+            </div> 
             <div class="form-body">
                 <form>
                     <div class="box-inpult">
+                        <input type="text" placeholder="Nome" name="email">
+                    </div>
+                     <div class="box-inpult">
                         <input type="email" placeholder="Email" name="email" required>
                     </div>
-                    <div class="box-inpult">
+                     <div class="box-inpult">
                         <input type="password" name="password" placeholder="Password" minlength="8" required>
                     </div>
                     <div class="box-submit">
-                        <input type="submit" value="Entrar">
+                        <input type="submit" value="Cadastrar">
                     </div>
                 </form>
-                <div class="password-forgot">
-                    <a href="">Esqueceu a senha ?</a>
-                </div>
+                
 
-            </div>
-       </div>
+            </div>  
+        </div>
+        
+            
     </div>
+    
 </body>
 </html>

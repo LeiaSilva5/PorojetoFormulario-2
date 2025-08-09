@@ -55,6 +55,11 @@ a:hover{
     margin-top: 15px;
     
 }
+.paragrafo-container{
+    color: #333;
+    text-align: center;
+    margin-top: 15px;
+}
 .form-body{
     max-width: 400px;
     margin: 0 auto;
@@ -70,7 +75,6 @@ a:hover{
     border: 1px solid #bcd1e5;
 }
 .box-submit{
-    
     margin-top: 30px;
     text-align: center;
 }
