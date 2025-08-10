@@ -102,6 +102,13 @@ a:hover{
     text-align: center;
   
 }
+.box-submit-a{
+    padding:10px;
+    background-color: #F54927;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
 
 /*Responsividade*/
 
